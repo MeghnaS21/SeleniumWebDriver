@@ -16,6 +16,7 @@ public class HelloWorld {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("Page Title: " + driver.getTitle());
         driver.quit();
     }
 }
